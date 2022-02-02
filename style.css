@@ -1,0 +1,9 @@
+.title-contaiiner {
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2020/12/11/04/16/spy-5821903_1280.jpg");
+}
+
+h1 {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+}
