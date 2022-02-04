@@ -1,18 +1,17 @@
-.title-container {
-  background-image: url("https://cdn.pixabay.com/photo/2014/11/21/00/09/man-539993_1280.jpg");
+#title-container {
   height: 100vh;
   width: 100%;
+  background-image: url(main.png);
 }
 
-h1 {
-  width: 100%;
-  height: 100vh;
+h1#maintitle {
+  width: 350px;
   padding-top: 300px;
+  margin: 0 auto;
   font-size: 50px;
   text-align: center;
   color: white;
   font-family: "Cormorant Garamond", serif;
-  background-image: url("https://cdn.pixabay.com/photo/2014/11/21/00/09/man-539993_1280.jpg");
 }
 
 h3#title {
@@ -22,6 +21,15 @@ h3#title {
   display: inline-block;
   margin-top: 70px;
   margin-bottom: 70px;
+}
+
+.profile-container {
+  text-align: center;
+}
+
+.content-container {
+  text-align: center;
+  line-height: 30px;
 }
 
 .intro-container {
@@ -40,7 +48,17 @@ h3#title {
 }
 
 .recommend-container {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+.image {
+  width: 150px;
+  height: 230px;
+}
+
+.bookname {
+  font-size: 16px;
 }
